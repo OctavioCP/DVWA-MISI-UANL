@@ -4,7 +4,7 @@ pipeline {
         IMAGE_REPO_NAME="dvwapub"
         //REPLACE XXX WITH YOUR STUDENT NUMBER
         IMAGE_TAG= "std1"
-        REPOSITORY_URI = "public.ecr.aws/f9n2h3p5/dvwapub"
+        REPOSITORY_URI = "public.ecr.aws/b1t7t3g4/dvwapub"
         AWS_DEFAULT_REGION = "us-east-1"
     }
    
