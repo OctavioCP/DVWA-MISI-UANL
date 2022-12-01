@@ -26,6 +26,10 @@ $page[ 'body' ] .= "
 
 	<h3>Disclaimer</h3>
 	<p>Aplicación con fines de uso educativos</p>
+	<p>Alejandro Muraira Vargas 	| 	2130884</p>
+	<p>Alexandro del Angel Escobar  | 	1425552</p>
+	<p>Octavio Carranza Pérez 		| 	2130885</p>
+	
 	<hr />
 	<br />
 
