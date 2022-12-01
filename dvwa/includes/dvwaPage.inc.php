@@ -130,7 +130,7 @@ function dvwaCurrentUser() {
 function &dvwaPageNewGrab() {
 	$returnArray = array(
 		//Changed
-		'title'           => 'SmartGas DVWA v' . dvwaVersionGet() . '',
+		'title'           => 'DVWA Seguridad DB MISI UANL' . dvwaVersionGet() . '',
 		'title_separator' => ' :: ',
 		'body'            => '',
 		'page_id'         => '',
