@@ -1,7 +1,8 @@
 <?php
 
 if( isset( $_GET[ 'Submit' ] ) ) {
-	
+	// Check Anti-CSRF token
+	checkToken( $_REQUEST[ 'user_token' ], $_SESSION[ 'session_token' ], 'index.php' );
 
 	// Get input
 	$id = $_GET[ 'id' ];
@@ -58,5 +59,7 @@ if( isset( $_GET[ 'Submit' ] ) ) {
 	}
 }
 
+// Generate Anti-CSRF token
+generateSessionToken();
 
 ?>
